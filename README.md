@@ -1,3 +1,49 @@
+<div align="center">
+
+<p>
+  <img alt="gif-header" src="https://cdn.hackernoon.com/hn-images/0*KyeIBTwEiX6_sE06" width="350px" float="center"/>
+</p>
+
+<h2 align="center">✨ Dummy Port Scanner ✨</h2>
+
+<div align="center">
+
+[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/lpmatos/helm-library)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://github.com/lpmatos/helm-library)
+[![GitHub repo size](https://img.shields.io/github/repo-size/lpmatos/helm-library)](https://github.com/lpmatos/helm-library)
+
+</div>
+
+---
+
+<p align="center">
+  <img alt="gif-about" src="https://i.stack.imgur.com/niIU6.gif" width="450px" float="center"/>
+</p>
+
+<p align="center">
+  ✨ Port Scanner is an application designed to probe a server or host for open ports ✨
+</p>
+
+<p align="center">
+  <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#motivation">Motivation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#versioning">Versioning</a>
+</p>
+
+</div>
+
+---
+
+## ➤ Getting Started <a name = "getting-started"></a>
+
+If you want contribute on this project, first you need to make a **git clone**:
+
+>
+> 1. git clone --depth 1 <https://github.com/lpmatos/dummy-port-scanner.git> -b main
+>
+
+This will give you access to the code on your **local machine**.
+
 ## ➤ Concepts <a name = "concepts"></a>
 
 This section aims to describe at a high level what the tools we use are and how we use them, without reproducing documentation that is better written (and more up to date) in the repositories and websites of these tools themselves. It's recommended to familiarize yourself with these tools as early as possible.
