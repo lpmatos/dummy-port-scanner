@@ -91,7 +91,7 @@ The terms socket and port are sometimes used as synonyms, but note that the term
 
 Conceptually, the TCP/IP protocol stack consists of four layers, each layer consisting of one or more protocols. A protocol is a set of rules or standards that two entities must follow so as to allow each other to receive and interpret messages sent to them. The entities could, for example, be two application programs in an application protocol, or the entities might be two TCP protocol layers in two different IP hosts (the TCP protocol).
 
-<p>
+<p align="center">
   <img alt="gif-header" src="https://www.ibm.com/docs/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.hala001/dwsl0044.gif" width="450px" float="center"/>
 </p>
 
