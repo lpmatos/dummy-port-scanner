@@ -1,27 +1,32 @@
 import socket
 import fire
+import sys
 from loguru import logger
 from nmap import PortScanner
 from typing import List
 
-HEADER = """'
-____   ___  ____ _____   ____   ____    _    _   _ _   _ _____ ____
-|  _ \ / _ \|  _ \_   _| / ___| / ___|  / \  | \ | | \ | | ____|  _ \
-| |_) | | | | |_) || |   \___ \| |     / _ \ |  \| |  \| |  _| | |_) |
-|  __/| |_| |  _ < | |    ___) | |___ / ___ \| |\  | |\  | |___|  _ <
-|_|    \___/|_| \_\|_|   |____/ \____/_/   \_\_| \_|_| \_|_____|_| \_\
+HEADER = """
+______          _     _____
+| ___ \        | |   /  ___|
+| |_/ /__  _ __| |_  \ `--.  ___ __ _ _ __  _ __   ___ _ __
+|  __/ _ \| '__| __|  `--. \/ __/ _` | '_ \| '_ \ / _ \ '__|
+| | | (_) | |  | |_  /\__/ / (_| (_| | | | | | | |  __/ |
+\_|  \___/|_|   \__| \____/ \___\__,_|_| |_|_| |_|\___|_|
 
 """
 
-
 def connect_scan(target_host: str, target_port: int) -> None:
-    try:
-        conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        conn.connect((target_host, target_port))
-        logger.info(f"👻 Port {target_port} Opened")
-        conn.close()
-    except:
-        logger.warning(f"🥶 Port {target_port} Closed")
+    # AF_INET refers to the ipv4 family-address
+    # SOCK_STREAM means that the connection is oriented by TCP protocol
+    with socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM) as conn:
+        try:
+            conn.connect((target_host, target_port))
+            logger.info(f"👻 Port {target_port} Opened")
+        except:
+            logger.warning(f"🥶 Port {target_port} Closed")
+        finally:
+            logger.debug("💥 Closing connection")
+            conn.close()
 
 
 def port_scan_simple(target_host: str, target_ports: List[int] = [443, 80]) -> None:

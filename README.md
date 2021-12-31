@@ -1,3 +1,11 @@
+## ➤ Concepts <a name = "concepts"></a>
+
+This section aims to describe at a high level what the tools we use are and how we use them, without reproducing documentation that is better written (and more up to date) in the repositories and websites of these tools themselves. It's recommended to familiarize yourself with these tools as early as possible.
+
+### Socket Programming
+
+Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while the other socket reaches out to the other to form a connection. The server forms the listener socket while the client reaches out to the server. They are the real backbones behind web browsing. In simpler terms, there is a server and a client.
+
 ## ➤ Author <a name = "author"></a>
 
 👤 **Lucca Pessoa**
