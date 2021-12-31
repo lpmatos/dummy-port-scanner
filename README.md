@@ -44,6 +44,31 @@ If you want contribute on this project, first you need to make a **git clone**:
 
 This will give you access to the code on your **local machine**.
 
+## ➤ Usage <a name = "usage"></a>
+
+```txt
+NAME
+    main.py
+
+SYNOPSIS
+    main.py TARGET_HOST <flags>
+
+POSITIONAL ARGUMENTS
+    TARGET_HOST
+        Type: str
+
+FLAGS
+    --target_ports=TARGET_PORTS
+        Type: typing.List[int]
+        Default: [443, 80]
+    --mode=MODE
+        Type: str
+        Default: 'simple'
+
+NOTES
+    You can also use flags syntax for POSITIONAL ARGUMENTS
+```
+
 ## ➤ Concepts <a name = "concepts"></a>
 
 This section aims to describe at a high level what the tools we use are and how we use them, without reproducing documentation that is better written (and more up to date) in the repositories and websites of these tools themselves. It's recommended to familiarize yourself with these tools as early as possible.
