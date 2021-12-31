@@ -16,6 +16,7 @@ ______          _     _____
 \_|  \___/|_|   \__| \____/ \___\__,_|_| |_|_| |_|\___|_|
 """
 
+
 def connect_scan(target_host: str, target_port: int) -> None:
     # AF_INET refers to the ipv4 family-address
     # SOCK_STREAM means that the connection is oriented by TCP protocol
