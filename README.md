@@ -76,7 +76,7 @@ NOTES
 ## ➤ Demo <a name = "demo"></a>
 
 <p align="center">
-  <img alt="gif-header" src="./assets/demo.gif" width="450px" float="center"/>
+  <img alt="gif-header" src="./assets/demo.gif" width="750px" float="center"/>
 </p>
 
 ## ➤ Concepts <a name = "concepts"></a>
