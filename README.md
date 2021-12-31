@@ -44,6 +44,12 @@ If you want contribute on this project, first you need to make a **git clone**:
 
 This will give you access to the code on your **local machine**.
 
+## ➤ Installation <a name = "installation"></a>
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
 ## ➤ Usage <a name = "usage"></a>
 
 
