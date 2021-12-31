@@ -17,7 +17,7 @@
 ---
 
 <p align="center">
-  <img alt="gif-about" src="https://66.media.tumblr.com/49d6d4fcbc73eb8183085fc2d0abc6ab/tumblr_ocl65tSKAw1qc3l3bo1_250.gif" width="450px" float="center"/>
+  <img alt="gif-about" src="https://i.pinimg.com/originals/8b/e4/ef/8be4efc0a8e5bc4903aae00db82cb982.gif" width="450px" float="center"/>
 </p>
 
 <p align="center">
