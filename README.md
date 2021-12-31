@@ -73,6 +73,12 @@ NOTES
     You can also use flags syntax for POSITIONAL ARGUMENTS
 ```
 
+## ➤ Demo <a name = "demo"></a>
+
+<p align="center">
+  <img alt="gif-header" src="./assets/demo.gif" width="450px" float="center"/>
+</p>
+
 ## ➤ Concepts <a name = "concepts"></a>
 
 This section aims to describe at a high level what the tools we use are and how we use them, without reproducing documentation that is better written (and more up to date) in the repositories and websites of these tools themselves. It's recommended to familiarize yourself with these tools as early as possible.
