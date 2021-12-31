@@ -1,3 +1,4 @@
 fire
 loguru
+pyfiglet
 python-nmap
