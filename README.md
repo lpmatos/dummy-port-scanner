@@ -128,7 +128,7 @@ To check the change history, please access the [**CHANGELOG.md**](CHANGELOG.md) 
 
 ## ➤ Project status <a name = "project-status"></a>
 
-Currently the project is constantly being updated 👾.
+This repository is a study project, therefore, it will not always be maintained 👻.
 
 ## ➤ Show your support <a name = "show-your-support"></a>
 
