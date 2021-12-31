@@ -104,6 +104,13 @@ Programs are located at the process layer; here they can interface with the two 
 * ARP: The IPv4 networking layer uses the Address Resolution Protocol (ARP) to map an IP address into a hardware address. In the IPv6 networking layer, this mapping is performed by the Neighbor Discovery (ND function). On local area networks (LANs), such an address would be called a media access control (MAC) address.
 * RARP: Reverse Address Resolution Protocol is used to reverse the operation of the ARP protocol. It maps a hardware address into an IPv4 address. Note that both ARP packets and RARP packets are not forwarded in IP packets, but are themselves media level packets. ARP and RARP are not used on all network types, as some networks do not need these protocols.
 
+## ➤ TL;DR
+
+- Socket is an abstraction of an IP connection endpoint - so if you think of it as an API structure, you are not very far off. 
+- Internet layer i.e. IP Protocol. In practice you usually use explicitly sockets that bind to a certain transport layer parameters (datagram/UDP or stream/TCP)
+- Sockets send data, in network byte order - whether it is text or binary, depends on the upper layer protocol.
+- Theoretically, probably yes - but in practice all IP traffic is done using 'sockets'
+
 ## ➤ Author <a name = "author"></a>
 
 👤 **Lucca Pessoa**
