@@ -46,7 +46,11 @@ This will give you access to the code on your **local machine**.
 
 ## ➤ Usage <a name = "usage"></a>
 
+
+
 ```txt
+$ python3 main.py --help
+
 NAME
     main.py
 
