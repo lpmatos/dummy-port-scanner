@@ -2,19 +2,15 @@
 
 import socket
 import fire
-import sys
+import pyfiglet
 from loguru import logger
 from nmap import PortScanner
 from typing import List
 
-HEADER = """
-______          _     _____
-| ___ \        | |   /  ___|
-| |_/ /__  _ __| |_  \ `--.  ___ __ _ _ __  _ __   ___ _ __
-|  __/ _ \| '__| __|  `--. \/ __/ _` | '_ \| '_ \ / _ \ '__|
-| | | (_) | |  | |_  /\__/ / (_| (_| | | | | | | |  __/ |
-\_|  \___/|_|   \__| \____/ \___\__,_|_| |_|_| |_|\___|_|
-"""
+
+class bcolors:
+    OKCYAN = "\033[96m"
+    WARNING = "\033[93m"
 
 
 def connect_scan(target_host: str, target_port: int) -> None:
@@ -72,7 +68,10 @@ def port_scan(
 
 
 def main() -> None:
-    print(HEADER)
+    ascii_banner = pyfiglet.figlet_format("Port Scanner")
+    print(bcolors.OKCYAN + ascii_banner)
+    print(bcolors.WARNING + "                   by @CI Monk")
+    print(bcolors.WARNING + "		      @lpmatos \n")
     fire.Fire(port_scan)
 
 
