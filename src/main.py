@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import socket
-import fire
-import pyfiglet
+import socket, fire, pyfiglet
 from loguru import logger
 from nmap import PortScanner
 from typing import List
