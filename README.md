@@ -129,7 +129,7 @@ Programs are located at the process layer; here they can interface with the two 
 
 >
 > * Email: lpsm-dev@protonmail.com
-> * Website: https://linktr.ee/lpmatos
+> * Linktree: https://linktr.ee/lpmatos
 >
 
 ## ➤ Versioning <a name = "versioning"></a>
