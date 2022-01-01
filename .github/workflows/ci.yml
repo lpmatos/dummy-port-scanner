@@ -93,3 +93,17 @@ jobs:
             type=registry,ref=${{ steps.meta.outputs.tags }}
             type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
           cache-to: type=inline
+
+  scan:
+    name: Scan
+    runs-on: ubuntu-20.04
+    timeout-minutes: 10
+    needs: build
+
+    steps:
+      - name: Dive
+        uses: yuichielectric/dive-action@0.0.4
+        with:
+          image: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main"
+          config-file: ${{ github.workspace }}/.dive-ci.yml
+          github-token: ${{ secrets.GITHUB_TOKEN }}
