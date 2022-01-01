@@ -118,16 +118,14 @@ Programs are located at the process layer; here they can interface with the two 
 
 ## ➤ TL;DR
 
-- Socket is an abstraction of an IP connection endpoint - so if you think of it as an API structure, you are not very far off. 
+- Socket is an abstraction of an IP connection endpoint - so if you think of it as an API structure, you are not very far off.
 - Internet layer i.e. IP Protocol. In practice you usually use explicitly sockets that bind to a certain transport layer parameters (datagram/UDP or stream/TCP)
 - Sockets send data, in network byte order - whether it is text or binary, depends on the upper layer protocol.
 - Theoretically, probably yes - but in practice all IP traffic is done using 'sockets'
 
 ## ➤ Author <a name = "author"></a>
 
-👤 **Lucca Pessoa**
-
-Hey!! If you like this project or if you find some bugs feel free to contact me in my channels:
+👤 Hey!! If you like this project or if you find some bugs feel free to contact me in my channels:
 
 >
 > * Email: lpsm-dev@protonmail.com
