@@ -1,5 +1,37 @@
 # Semantic Versioning Changelog
 
+## [1.1.0](https://github.com/lpmatos/dummy-port-scanner/compare/1.0.0...1.1.0) (2022-01-02)
+
+
+### :repeat: CI
+
+* add build stage ([2956639](https://github.com/lpmatos/dummy-port-scanner/commit/2956639e15c60848602d1c0dbfd68910c4e5464e))
+* add hadolint ([228cde3](https://github.com/lpmatos/dummy-port-scanner/commit/228cde38854f395b916bdfc2b187f2c81d1d8050))
+* add stage scan ([cf4bc2b](https://github.com/lpmatos/dummy-port-scanner/commit/cf4bc2ba10b06c27957c2013bfb55f9ca37f7f49))
+* fix quotes template ([51373e3](https://github.com/lpmatos/dummy-port-scanner/commit/51373e389ad83ff81ed23fc44ec3ff6d97a68d3b))
+* remove double quotes ([09ec0db](https://github.com/lpmatos/dummy-port-scanner/commit/09ec0db2460677ec906d706215d3635a5d841ff7))
+
+
+### :sparkles: News
+
+* add pip in dependabot ([e4fb2d2](https://github.com/lpmatos/dummy-port-scanner/commit/e4fb2d21548bfac0fffc19c5046033ba26ffe007))
+
+
+### :memo: Docs
+
+* add concepts in menu ([060a1eb](https://github.com/lpmatos/dummy-port-scanner/commit/060a1eb9c69363cc3533a174caa68f0bcd643fd5))
+* pretty readme ([3eada33](https://github.com/lpmatos/dummy-port-scanner/commit/3eada33d56d8e2fabf0544306de886088f79b88b))
+* rename info ([77dc411](https://github.com/lpmatos/dummy-port-scanner/commit/77dc411fe2e1ca96840e16dfed344c7f153bcd5f))
+* somethings in desc ([66e5405](https://github.com/lpmatos/dummy-port-scanner/commit/66e540565912023f02c8a9679b4194e9ab44d39b))
+
+
+### :bug: Fixes
+
+* change requirements version ([461fdc6](https://github.com/lpmatos/dummy-port-scanner/commit/461fdc6743586bbb5e9209c96d249f89eebba178))
+* license config ([de7128f](https://github.com/lpmatos/dummy-port-scanner/commit/de7128f42cb58c702826536ab2b2a34d4f8f23cb))
+* license desc and package.json scripts ([17c33c2](https://github.com/lpmatos/dummy-port-scanner/commit/17c33c2486630954f68741bf3a25e0e30b228d31))
+* reorganize imports ([7ffe909](https://github.com/lpmatos/dummy-port-scanner/commit/7ffe9095c07ec9fd126846592d156a6300200657))
+
 ## 1.0.0 (2021-12-31)
 
 
