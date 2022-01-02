@@ -55,8 +55,6 @@ python3 -m pip install -r requirements.txt
 
 <details><summary>Local</summary>
 <p>
-Local execution method:
-
 ```txt
 $ python3 main.py --help
 
@@ -86,8 +84,6 @@ NOTES
 
 <details><summary>Container</summary>
 <p>
-Running a container:
-
 ```bash
 docker container run -it --rm ghcr.io/lpmatos/dummy-port-scanner:main
 ```
