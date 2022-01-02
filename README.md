@@ -55,6 +55,7 @@ python3 -m pip install -r requirements.txt
 
 <details><summary>Local</summary>
 <p>
+
 ```txt
 $ python3 main.py --help
 
@@ -79,14 +80,17 @@ FLAGS
 NOTES
     You can also use flags syntax for POSITIONAL ARGUMENTS
 ```
+
 </p>
 </details>
 
 <details><summary>Container</summary>
 <p>
+
 ```bash
 docker container run -it --rm ghcr.io/lpmatos/dummy-port-scanner:main
 ```
+
 </p>
 </details>
 
