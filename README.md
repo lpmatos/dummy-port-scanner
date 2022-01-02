@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  ✨ Port Scanner is an application designed to probe a server or host for open ports ✨
+  ✨ Port Scanner is a simple application designed to probe a server or host for open ports ✨
 </p>
 
 <p align="center">
