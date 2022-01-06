@@ -33,3 +33,5 @@ jobs:
 
       - name: Trojan Source Detector
         uses: haveyoudebuggedit/trojansourcedetector@v1
+        with:
+          config: ${{ github.workspace }}/.github/.trojansourcedetector.json
