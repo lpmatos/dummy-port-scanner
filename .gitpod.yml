@@ -1,2 +1,9 @@
 tasks:
   - init: npm install && pip install -r requirements.txt
+
+vscode:
+  extensions:
+    - redhat.vscode-yaml
+    - foxundermoon.shell-format
+    - eamodio.gitlens
+    - waderyan.gitblame
