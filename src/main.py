@@ -6,9 +6,14 @@ from nmap import PortScanner
 from typing import List
 
 
-class bcolors:
+class BColors:
     OKCYAN = "\033[96m"
     WARNING = "\033[93m"
+
+class Mode:
+    SIMPLE = "simple"
+    LOOP = "loop"
+    NMAP = "nmap"
 
 
 def connect_scan(target_host: str, target_port: int) -> None:
@@ -64,21 +69,21 @@ def port_scan(
 
     socket.setdefaulttimeout(1)
 
-    if mode == "simple":
+    if mode == Mode.SIMPLE:
         port_scan_simple(target_host, target_ports)
 
-    if mode == "loop":
+    if mode == Mode.LOOP:
         port_scan_loop(target_host)
 
-    if mode == "nmap":
+    if mode == Mode.NMAP:
         nmap_scan(target_host, target_ports)
 
 
 def main() -> None:
     ascii_banner = pyfiglet.figlet_format("Port Scanner")
-    print(bcolors.OKCYAN + ascii_banner)
-    print(bcolors.WARNING + "                   by @CI Monk")
-    print(bcolors.WARNING + "		      @lpmatos \n")
+    print(BColors.OKCYAN + ascii_banner)
+    print(BColors.WARNING + "                   by @CI Monk")
+    print(BColors.WARNING + "		      @lpmatos \n")
     fire.Fire(port_scan)
 
 
