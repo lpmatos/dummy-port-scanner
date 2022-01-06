@@ -30,3 +30,6 @@ jobs:
         with:
           dockerfile: Dockerfile
           config: ${{ github.workspace }}/.hadolint.yml
+
+      - name: Trojan Source Detector
+        uses: haveyoudebuggedit/trojansourcedetector@v1
