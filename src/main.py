@@ -4,6 +4,7 @@ import socket, fire, pyfiglet
 from loguru import logger
 from nmap import PortScanner
 from typing import List
+from datetime import datetime
 
 
 class BColors:
@@ -45,7 +46,6 @@ def nmap_scan(target_host: str, target_ports: List[int] = [443, 80]) -> None:
         portscan = scan.scan(target_host, str(port))
         print("Port", port, "is ", portscan["scan"][target_host]["tcp"][port]["state"])
 
-
 def port_scan_loop(target_host: str) -> None:
     logger.debug("✨ Enable port scan loop mode")
     for port in range(1,52000):
@@ -69,6 +69,8 @@ def port_scan(
 
     socket.setdefaulttimeout(1)
 
+    start = datetime.now()
+
     if mode == Mode.SIMPLE:
         port_scan_simple(target_host, target_ports)
 
@@ -77,6 +79,9 @@ def port_scan(
 
     if mode == Mode.NMAP:
         nmap_scan(target_host, target_ports)
+
+    end = datetime.now()
+    print(f"\nScanning completed in: {end - start}\n")
 
 
 def main() -> None:
