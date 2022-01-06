@@ -1,5 +1,26 @@
 # Semantic Versioning Changelog
 
+## [1.2.0](https://github.com/lpmatos/dummy-port-scanner/compare/1.1.0...1.2.0) (2022-01-06)
+
+
+### :sparkles: News
+
+* add durantion scan print ([80d6e3e](https://github.com/lpmatos/dummy-port-scanner/commit/80d6e3e5b1b313abcf5b1c009678a0df8ea2c3aa))
+* add loop mode and default host google.com ([a48d434](https://github.com/lpmatos/dummy-port-scanner/commit/a48d434ebb991afe80319d3d7741f219f0046f20))
+* add mode class ([6fe2dec](https://github.com/lpmatos/dummy-port-scanner/commit/6fe2dec390f700e43226cad3e3e3a26a4dc4bf7a))
+
+
+### :bug: Fixes
+
+* default dockerfile cmd ([5115f36](https://github.com/lpmatos/dummy-port-scanner/commit/5115f366916d5a492e7782c01eaa4712e25baada))
+
+
+### :memo: Docs
+
+* add comments about modes ([8926ac8](https://github.com/lpmatos/dummy-port-scanner/commit/8926ac8bd287e19ae4beec8ee85e3d88f48d1d78))
+* add features and important note ([addcae6](https://github.com/lpmatos/dummy-port-scanner/commit/addcae629d33dfac46e8daa7b50dc3f69285f139))
+* fix usage code ([0922a29](https://github.com/lpmatos/dummy-port-scanner/commit/0922a29afb8c2954f7a62a6f90fb4d5f9328b6c4))
+
 ## [1.1.0](https://github.com/lpmatos/dummy-port-scanner/compare/1.0.0...1.1.0) (2022-01-06)
 
 
