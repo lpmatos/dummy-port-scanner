@@ -28,3 +28,4 @@ vscode:
     - foxundermoon.shell-format
     - eamodio.gitlens
     - waderyan.gitblame
+    - ms-azuretools.vscode-docker
