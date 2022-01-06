@@ -22,11 +22,11 @@ jobs:
       - name: Secret Dection
         uses: zricethezav/gitleaks-action@master
         with:
-          config-path: .gitleaks.toml
+          config-path: ${{ github.workspace }}/.gitleaks.toml
         continue-on-error: false
 
       - name: Hadolint
         uses: hadolint/hadolint-action@v1.6.0
         with:
-          dockerfile: Dockerfile
-          config: .hadolint.yml
+          dockerfile: ${{ github.workspace }}/Dockerfile
+          config: ${{ github.workspace }}/.hadolint.yml
