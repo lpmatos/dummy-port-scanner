@@ -71,22 +71,18 @@ NAME
     main.py
 
 SYNOPSIS
-    main.py TARGET_HOST <flags>
-
-POSITIONAL ARGUMENTS
-    TARGET_HOST
-        Type: str
+    main.py <flags>
 
 FLAGS
+    --target_host=TARGET_HOST
+        Type: str
+        Default: 'google.com'
     --target_ports=TARGET_PORTS
         Type: typing.List[int]
         Default: [443, 80]
     --mode=MODE
         Type: str
         Default: 'simple'
-
-NOTES
-    You can also use flags syntax for POSITIONAL ARGUMENTS
 ```
 
 ## ➤ Docker <a name = "docker"></a>
