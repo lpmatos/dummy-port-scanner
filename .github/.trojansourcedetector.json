@@ -1,11 +1,10 @@
 {
-  directory: "./src",
   "exclude": [
     ".git/**",
     ".github/scripts/*.sh",
     "dist/**"
   ],
-  "detect_unicode": true,
+  "detect_unicode": false,
   "detect_bidi": true,
-  "parallelism": 10
+  "parallelism": 15
 }
