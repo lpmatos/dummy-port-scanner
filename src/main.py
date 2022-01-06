@@ -41,8 +41,14 @@ def nmap_scan(target_host: str, target_ports: List[int] = [443, 80]) -> None:
         print("Port", port, "is ", portscan["scan"][target_host]["tcp"][port]["state"])
 
 
+def port_scan_loop(target_host: str) -> None:
+    logger.debug("✨ Enable port scan loop mode")
+    for port in range(1,52000):
+        logger.debug(f"🔎 Scanning port: {port}")
+        connect_scan(target_host, int(port))
+
 def port_scan(
-    target_host: str, target_ports: List[int] = [443, 80], mode: str = "simple"
+    target_host: str = "google.com", target_ports: List[int] = [443, 80], mode: str = "simple"
 ) -> None:
     try:
         target_ip = socket.gethostbyname(target_host)
@@ -60,6 +66,9 @@ def port_scan(
 
     if mode == "simple":
         port_scan_simple(target_host, target_ports)
+
+    if mode == "loop":
+        port_scan_loop(target_host)
 
     if mode == "nmap":
         nmap_scan(target_host, target_ports)
