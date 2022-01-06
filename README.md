@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  ✨ Port scanner is a simple CLI application designed to probe servers or hosts for open ports ✨
+  ✨ Port Scanner is a simple CLI application designed to search servers or hosts for open ports ✨
 </p>
 
 <p align="center">

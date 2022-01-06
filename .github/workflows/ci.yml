@@ -22,11 +22,16 @@ jobs:
       - name: Secret Dection
         uses: zricethezav/gitleaks-action@master
         with:
-          config-path: .gitleaks.toml
+          config-path: ${{ github.workspace }}/.gitleaks.toml
         continue-on-error: false
 
       - name: Hadolint
         uses: hadolint/hadolint-action@v1.6.0
         with:
           dockerfile: Dockerfile
-          config: .hadolint.yml
+          config: ${{ github.workspace }}/.hadolint.yml
+
+      - name: Trojan Source Detector
+        uses: haveyoudebuggedit/trojansourcedetector@v1
+        with:
+          config: .github/.trojansourcedetector.json
