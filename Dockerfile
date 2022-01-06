@@ -18,4 +18,4 @@ COPY [ "./src", "." ]
 RUN find ./ -iname "*.py" -type f -exec chmod a+x {} \; -exec echo {} \;
 
 ENTRYPOINT [ "python", "main.py" ]
-CMD [ "google.com" ]
+CMD [ "--target_host", "google.com" ]
