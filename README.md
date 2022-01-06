@@ -45,6 +45,10 @@ git clone --depth 1 https://github.com/lpmatos/dummy-port-scanner.git -b main
 
 This will give you access to the code on your **local machine**.
 
+## ➤ Important Note
+
+**This tool is for educational and ethical practices only. The developers are not responsible if the tool is misused by an individual.**
+
 ## ➤ Installation <a name = "installation"></a>
 
 ```bash
@@ -94,6 +98,14 @@ docker container run -it --rm ghcr.io/lpmatos/dummy-port-scanner:main
 ```
 
 Click [here](https://github.com/lpmatos/dummy-port-scanner/pkgs/container/dummy-port-scanner/versions) to see available image tags.
+
+## ➤ Features
+
+- Pretty CLI.
+- Docker container option.
+- Scan target in a range of ports.
+- Scan target given a list of ports.
+- Scan target given a list of ports using Nmap.
 
 ## ➤ Concepts <a name = "concepts"></a>
 
