@@ -1,7 +1,9 @@
 {
+  "directory": "./src",
   "exclude": [
     ".git/**",
     ".github/scripts/*.sh",
+    "assets/**",
     "dist/**"
   ],
   "detect_unicode": false,
