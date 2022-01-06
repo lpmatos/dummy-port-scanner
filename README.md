@@ -99,9 +99,9 @@ Click [here](https://github.com/lpmatos/dummy-port-scanner/pkgs/container/dummy-
 
 - Pretty CLI.
 - Docker container option.
-- Scan target in a range of ports.
-- Scan target given a list of ports.
-- Scan target given a list of ports using Nmap.
+- Scan target in a range of ports -  Loop mode.
+- Scan target given a list of ports - Simple mode.
+- Scan target given a list of ports using Nmap - Nmap mode.
 
 ## ➤ Concepts <a name = "concepts"></a>
 
