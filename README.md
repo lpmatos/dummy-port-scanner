@@ -1,30 +1,20 @@
 <div align="center">
 
-<p>
-  <img alt="gif-header" src="https://aemebe.weebly.com/uploads/4/7/1/4/47145535/tumblr-oujnx1jo9i1r9ndy3o1-500_orig.gif" width="350px" float="center"/>
-</p>
+<img alt="gif-header" src="https://aemebe.weebly.com/uploads/4/7/1/4/47145535/tumblr-oujnx1jo9i1r9ndy3o1-500_orig.gif" width="350px"/>
 
-<h2 align="center">✨ Dummy port scanner ✨</h2>
-
-<div align="center">
+<h2>✨ Dummy port scanner ✨</h2>
 
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/lpmatos/dummy-port-scanner)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://github.com/lpmatos/dummy-port-scanner)
 [![GitHub repo size](https://img.shields.io/github/repo-size/lpmatos/dummy-port-scanner)](https://github.com/lpmatos/dummy-port-scanner)
 
-</div>
-
 ---
 
-<p align="center">
-  <img alt="gif-about" src="https://i.pinimg.com/originals/8b/e4/ef/8be4efc0a8e5bc4903aae00db82cb982.gif" width="450px" float="center"/>
-</p>
+<img alt="gif-about" src="https://i.pinimg.com/originals/8b/e4/ef/8be4efc0a8e5bc4903aae00db82cb982.gif" width="450px" float="center"/>
 
-<p align="center">
-  ✨ Port Scanner is a simple CLI application designed to search servers or hosts for open ports ✨
-</p>
+<p>✨ Port Scanner is a simple CLI application designed to search servers or hosts for open ports ✨</p>
 
-<p align="center">
+<p>
   <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#concepts">Concepts</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -181,9 +171,7 @@ This repository is a study project, therefore, it will not always be maintained 
 
 Give me a ⭐️ if this project helped you!
 
-<p>
-  <img alt="gif-header" src="https://www.icegif.com/wp-content/uploads/baby-yoda-bye-bye-icegif.gif" width="350px" float="center"/>
-</p>
+<img alt="gif-header" src="https://www.icegif.com/wp-content/uploads/baby-yoda-bye-bye-icegif.gif" width="350px" float="center"/>
 
 Made with 💜 by [me](https://github.com/lpmatos) 👋 inspired on [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 
