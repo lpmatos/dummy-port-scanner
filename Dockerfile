@@ -1,6 +1,7 @@
 FROM python:3.10.4-alpine3.14 as base
 
 FROM base as install
+WORKDIR /tmp
 COPY [ "requirements.txt", "." ]
 RUN set -ex && \
     pip install --no-cache-dir \
