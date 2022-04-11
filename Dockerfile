@@ -12,7 +12,7 @@ FROM base
 RUN set -ex && \
     apk update && \
     apk add --update --no-cache \
-      bash=5.1.16-r0 nmap=7.91-r0
+      bash=5.1.16-r0 nmap=7.91-r0 xz-libs=5.2.5-r1
 COPY --from=install [ "/root/.local", "/usr/local" ]
 WORKDIR /usr/src/code
 COPY [ "src/", "." ]
