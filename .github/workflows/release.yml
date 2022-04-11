@@ -30,7 +30,7 @@ jobs:
         if: github.event.inputs.git-ref == 'main'
 
       - name: Release
-        run: npx semantic-release --extends .github/config/.releaserc.json
+        run: cp .github/config/.releaserc.json . && npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: github.event.inputs.git-ref == 'main'
