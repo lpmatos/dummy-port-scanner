@@ -1,5 +1,26 @@
 # Semantic Versioning Changelog
 
+## [1.3.0](https://github.com/lpmatos/dummy-port-scanner/compare/1.2.0...1.3.0) (2022-04-11)
+
+
+### :memo: Docs
+
+* add donations ([60d1925](https://github.com/lpmatos/dummy-port-scanner/commit/60d192572707981c353e1f6aba6058c3dd2edaac))
+
+
+### :sparkles: News
+
+* add description args ([5d25777](https://github.com/lpmatos/dummy-port-scanner/commit/5d257772a5925562cb041647809e8442b4ca9f48))
+
+
+### :bug: Fixes
+
+* dockerfile and precommit setup ([dcfd5d0](https://github.com/lpmatos/dummy-port-scanner/commit/dcfd5d09e318a7833de86d2f76b805a2778a34f6))
+* dockerfile hadolint ([a35d958](https://github.com/lpmatos/dummy-port-scanner/commit/a35d9588931762f383d6cda04138776980e0b6f7))
+* files organization ([e94e58c](https://github.com/lpmatos/dummy-port-scanner/commit/e94e58c9e64581001a72a4909e1e4eb6d7a52042))
+* remove entrypoint setup docker-compose ([a7ebb32](https://github.com/lpmatos/dummy-port-scanner/commit/a7ebb32d85a23ea621566f56eeb87babd00e5aa6))
+* rename ci files ([9cc131b](https://github.com/lpmatos/dummy-port-scanner/commit/9cc131bdfd8c7071215093ae00d26250a13f6961))
+
 ## [1.2.0](https://github.com/lpmatos/dummy-port-scanner/compare/1.1.0...1.2.0) (2022-01-06)
 
 
