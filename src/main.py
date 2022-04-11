@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import socket, fire, pyfiglet
+import socket, fire, pyfiglet, sys
 from loguru import logger
 from nmap import PortScanner
 from typing import List
@@ -15,7 +15,6 @@ class Mode:
     SIMPLE = "simple"
     LOOP = "loop"
     NMAP = "nmap"
-
 
 def connect_scan(target_host: str, target_port: int) -> None:
     # AF_INET refers to the ipv4 family-address
@@ -53,8 +52,15 @@ def port_scan_loop(target_host: str) -> None:
         connect_scan(target_host, int(port))
 
 def port_scan(
-    target_host: str = "google.com", target_ports: List[int] = [443, 80], mode: str = "simple"
+    target_host: str = "google.com",
+    target_ports: List[int] = [443, 80],
+    mode: str = "simple"
 ) -> None:
+
+    print(BColors.OKCYAN + f"✨ Target host: {target_host}")
+    print(BColors.OKCYAN + f"✨ Target ports: {target_ports}")
+    print(BColors.OKCYAN + f"✨ Target mode: {mode}", end="\n\n")
+
     try:
         target_ip = socket.gethostbyname(target_host)
     except:
