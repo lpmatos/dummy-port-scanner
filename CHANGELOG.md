@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+### [1.3.1](https://github.com/lpmatos/dummy-port-scanner/compare/1.3.0...1.3.1) (2022-04-11)
+
+
+### :bug: Fixes
+
+* dockerfile security package version ([4cd4579](https://github.com/lpmatos/dummy-port-scanner/commit/4cd457920a08ffdeea7869b8ea89c0625760223f))
+
 ## [1.3.0](https://github.com/lpmatos/dummy-port-scanner/compare/1.2.0...1.3.0) (2022-04-11)
 
 
