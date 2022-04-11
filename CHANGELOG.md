@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+### [1.3.2](https://github.com/lpmatos/dummy-port-scanner/compare/1.3.1...1.3.2) (2022-04-11)
+
+
+### :repeat: CI
+
+* add --extends in semantic release ([de9c4e6](https://github.com/lpmatos/dummy-port-scanner/commit/de9c4e63bc279a98f4d257de1ad6a7db2244bc15))
+
+
+### :bug: Fixes
+
+* cp file to release ([a639ac4](https://github.com/lpmatos/dummy-port-scanner/commit/a639ac44aa50780faf3a129dffeed2d7a5b389b4))
+* merge conflicts ([7c9b077](https://github.com/lpmatos/dummy-port-scanner/commit/7c9b07729f2ba3802879ede24bf090afd9fd6652))
+
 ### [1.3.1](https://github.com/lpmatos/dummy-port-scanner/compare/1.3.0...1.3.1) (2022-04-11)
 
 
